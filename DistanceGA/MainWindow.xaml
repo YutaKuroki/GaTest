@@ -6,8 +6,6 @@
     xmlns:local="clr-namespace:DistanceGA"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     Title="MainWindow"
-    Width="800"
-    Height="450"
     mc:Ignorable="d">
     <Grid Background="Orange">
         <Grid.RowDefinitions>
@@ -17,6 +15,8 @@
         <Canvas
             x:Name="MyCanvas"
             Grid.Row="0"
+            Height="600"
+            Width="600"
             Margin="10"
             Background="#FFFFD8B1" />
         <StackPanel Grid.Row="1" Orientation="Horizontal">

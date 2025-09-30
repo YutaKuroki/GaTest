@@ -53,8 +53,8 @@ namespace DistanceGA
             await Task.Run(() =>
             {
                 ga.Run(
-                    generationCount: 1000,
-                    populationMin: 200,
+                    generationCount: 2000,
+                    populationMin: 300,
                     populationMax: 400,
                     onGeneration: (route , generation) =>
                     {
